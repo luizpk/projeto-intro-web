@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavaleiros do Zodíaco - Saga Santuário</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="corpo">
+    <div class="container">
+        <header class="cabecalho">
+            <img src="logoSaintSeiya.png">
+        </header>
+        <main>
+            <div class="campoPesquisa">
+                
+                <input  type="text" id="pesquisa" name="pesquisa" placeholder="Digite aqui sua Busca" required title="Digite o nome de seu Cavaleiro">
+                <button onclick="pesquisaCavaleiros()">Buscar</button>
+            </div>
+            <div class="conteudo">
+                <section class="cavaleiro" id="seiya">
+                    <img id="imagem" src="Seiya.jpg">
+                    <ul class = "lista" id="listaSeiya">
+
+                        <li id="nome">Nome: <a href="https://www.google.com/search?q=seiya&oq=seiya&aqs=chrome..69i57j0i512l3j46i512j0i512l3j46i512j0i512.10803j0j7&sourceid=chrome&ie=UTF-8&si=AC1wQDBgEJLyWEcKt9OBq7RdshITk1uCE0Uv9d2BoDUo2H_8_2dV43K3x5uHi81OBrpDyJPnJEVVpUG1IT_kSc3x_hA4A8tnkjcKXFdVInc6RGr_lukzfyE%3D&ictx=1&ved=2ahUKEwjOl-WYk8z6AhWRjZUCHYcPAdQQnZMFegQIaRAC">Seiya</a></li>
+                        <li>Classe: Bronze</li>
+                        <li>Armadura: Pégasus</li>
+                    </ul>
+                </section>
+                <section class="cavaleiro" id="shun">
+                    <img id="imagem" src="Shun1.jpg">
+                    <ul class = "lista" id="listaShun">
+                        <li>Nome: <a href="https://www.google.com/search?q=shun&oq=shun&aqs=chrome..69i57j0i131i433i512l3j0i433i512l2j0i131i433i512j46i10i175i199i512j46i10i199i465i512j0i433i512.1399j0j9&sourceid=chrome&ie=UTF-8&si=AC1wQDBgEJLyWEcKt9OBq7RdshITt-v5eZCbxjCcr8NeJjHHXq63_vZnezS_MQOjmILDV02qUBl5tQD-c4A0X65PEvU9_29gbkoQ8vyiO8-AICxWa8Jv0so%3D&ictx=1&ved=2ahUKEwjZk5XRk8z6AhU5ppUCHanLD7UQnZMFegQIYRAC">Shun</a></a></li>
+                        <li>Classe: Bronze</li>
+                        <li>Armadura: Andrômeda</li>
+                    </ul>
+                </section>
+                <section class="cavaleiro" id="shiryu">
+                    <img id="imagem" src="Shiryu.jpg">
+                    <ul class = "lista" id="listaShiryu">
+                        <li>Nome: <a href="https://www.google.com/search?q=shiryu&sxsrf=ALiCzsZx8Z8Z_38we2W_KkF8hXxLJAbbrQ%3A1665078191809&ei=rxM_Y5mAMbnM1sQPqZe_qAs&ved=0ahUKEwjZk5XRk8z6AhU5ppUCHanLD7UQ4dUDCA4&uact=5&oq=shiryu&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCAAQsQMQQzIHCAAQsQMQQzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBAgAEEM6CggAEEcQ1gQQsAM6BwgAELADEEM6DQgAEOQCENYEELADGAE6DwguENQCEMgDELADEEMYAjoMCC4QyAMQsAMQQxgCOgQIIxAnOggILhCABBDUAjoRCC4QgAQQsQMQgwEQxwEQ0QM6CAguELEDEIMBOgsIABCABBCxAxCDAToHCC4Q1AIQQzoKCC4QsQMQ1AIQQzoFCC4QgAQ6BAgAEAM6CwguEIAEELEDEIMBOgUIABCxAzoHCAAQgAQQCkoECEEYAEoECEYYAVDPF1iXJWCgK2gBcAB4AIABtAGIAZ0HkgEDMC42mAEAoAEByAETwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz-serp">Shiryu</a></li>
+                        <li>Classe: Bronze</li>
+                        <li>Armadura: Dragão</li>
+                    </ul>
+                </section>
+                <section class="cavaleiro" id="hyoga">
+                    <img id="imagem" src="Hyoga.jpg">
+                    <ul class = "lista" id="listaHyoga">
+                        <li>Nome: <a href="https://www.google.com/search?q=hyoga&oq=hyoga&aqs=chrome.0.69i59j0i433i512j0i512l8.2023j0j9&sourceid=chrome&ie=UTF-8">Hyoga</a></li>
+                        <li>Classe: Bronze</li>
+                        <li>Armadura: Cisne</li>
+                    </ul>
+                </section>
+                <section class="cavaleiro" id="ikki">
+                    <img id="imagem" src="Ikki.jpg">
+                    <ul class = "lista" id="listaIkki">
+                        <li>Nome: <a href="https://www.google.com/search?q=ikki&oq=ikki&aqs=chrome..69i57j0i433i512j46i433i512j0i512j46i175i199i512j0i512l5.2711j0j9&sourceid=chrome&ie=UTF-8">Ikki</a> </li>
+                        <li>Classe: Bronze</li>
+                        <li>Armadura: Fenix</li>
+                    </ul>
+                </section>
+            
+
+            </div>
+
+
+        </main>
+
+        <footer class="Rodapé">
+            <p><b>Criação: Luiz Paulo Kuchembuck Pinheiro</b></p>
+            <br>
+            <p><b>Perfil Github:</b></p><a href="https://github.com/luizpk">LuizPK</a>
+        </footer>
+    </div>
+
+
+
+</body>
+
